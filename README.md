@@ -1,6 +1,6 @@
 # yii2-postmark-mailer
 
-A Human Postmark Yii2 component, including a catch to prevent sending emails to real email addresses when not on the Production environment
+A eartotheground Postmark Yii2 component, including a catch to prevent sending emails to real email addresses when not on the Production environment
 
 ## Example config
 
@@ -21,9 +21,9 @@ return [
 	    	...
 	    ],
 		'custommailer' => [
-			'class' => 'human\yii2-postmark-mailer\PostmarkMailer',
+			'class' => 'eartotheground\yii2-postmark-mailer\PostmarkMailer',
 			'postmarkServerToken' => 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',
-			'errorEmailAddress' => 'error-reporting-address@human.software',
-			'safeEmailAddress' => 'local-and-qa-emails-address@human.software',
+			'errorEmailAddress' => 'error-reporting-address@eartotheground.software',
+			'safeEmailAddress' => 'local-and-qa-emails-address@eartotheground.software',
 		],
 ```
